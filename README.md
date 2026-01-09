@@ -1,135 +1,3 @@
-
-
-
-🔄 
-
-🧠 Concepts Demonstrated
-
-Object-Oriented Programming (Classes & Objects)
-
-Binary file handling (ifstream, ofstream, fstream)
-
-CRUD operations
-
-Menu-driven console UI
-
-Data persistence
-
-Basic relational modeling
-
-🛠️ Tech Stack
-
-Language: C++
-
-Compiler: Turbo C++ / Borland C++ (legacy compatible)
-
-Libraries Used:
-
-<iostream.h>
-
-<fstream.h>
-
-<iomanip.h>
-
-<conio.h>
-
-<stdlib.h>
-
-⚠️ This project uses legacy headers for compatibility with Turbo C++.
-
-🗂️ File Structure
-📦 Project-Management-CRM
- ┣ 📄 TeamMember.dat        # Team member records
- ┣ 📄 Project.dat           # Project records
- ┣ 📄 ProjectTeam.dat       # Project–Team mapping
- ┣ 📄 TeamTrash.dat         # Deleted team member backup
- ┣ 📄 ProjectTrash.dat      # Deleted project backup
- ┣ 📄 Storage.dat           # Temporary file for delete operations
- ┗ 📄 main.cpp              # Source code
-
-🧱 Class Design
-TeamMember
-
-Handles all operations related to team members:
-
-ID, Name, Mobile, Skill Set, Role
-
-Add, display, edit, delete operations
-
-Project
-
-Manages project information:
-
-Project code, customer name, dates
-
-Assignment to teams
-
-Full CRUD support
-
-ProjectTeam
-
-Acts as a relational bridge between projects and teams:
-
-Stores project code and team ID pairs
-
-▶️ How to Run
-
-Open Turbo C++ / Borland C++
-
-Create a new project
-
-Paste the source code into main.cpp
-
-Compile and run the program
-
-Navigate using numeric menu options
-
-📸 Sample Workflow
-
-Add team members
-
-Create projects
-
-Assign projects to teams
-
-View assigned projects
-
-Edit or delete records as needed
-
-📈 Possible Improvements
-
-Upgrade to modern C++ (<iostream>, string, STL)
-
-Replace static arrays with dynamic memory
-
-Support multiple team members per project
-
-Add search and filtering options
-
-Implement authentication
-
-Convert to GUI or web-based application
-
-🎓 Academic Relevance
-
-This project is ideal for:
-
-C++ mini / major projects
-
-File handling demonstrations
-
-OOP practical exams
-
-Beginner-level system design portfolios
-
-👤 Author
-
-Developed as a C++ academic project focused on demonstrating object-oriented programming and file-handling techniques.
-
-⭐ If you find this project useful, consider starring the repository!
-
-
-
 # Project Management CRM (C++ Console Application)
 
 A menu-driven **Project Management CRM system** built using **C++** that manages team members, projects, and project-to-team assignments using **binary file handling**.  
@@ -172,7 +40,7 @@ This application demonstrates foundational **Object-Oriented Programming (OOP)**
 
 ---
 
-## Technology Stack
+## 🛠️ Technology Stack
 
 - **Language:** C++  
 - **Compiler:** Turbo C++ / Borland C++ (legacy compatible)  
@@ -183,12 +51,12 @@ This application demonstrates foundational **Object-Oriented Programming (OOP)**
   - `<conio.h>`
   - `<stdlib.h>`
 
-> Note: This project uses legacy headers for compatibility with Turbo C++.
+> ⚠️Note: This project uses legacy headers for compatibility with Turbo C++.
 
 ---
 
 
-## Class Design
+## 🧱 Class Design
 
 ### TeamMember
 Handles all operations related to team members:
@@ -207,7 +75,7 @@ Acts as a relational bridge between projects and teams:
 
 ---
 
-## How to Run
+## ▶️ How to Run
 
 1. Open **Turbo C++ / Borland C++**
 2. Create a new project
@@ -217,7 +85,7 @@ Acts as a relational bridge between projects and teams:
 
 ---
 
-## Sample Workflow
+## 📸 Sample Workflow
 
 1. Add team members  
 2. Create projects  
@@ -227,7 +95,7 @@ Acts as a relational bridge between projects and teams:
 
 ---
 
-## Possible Improvements
+## 📈 Possible Improvements
 
 - Upgrade to modern C++ (`<iostream>`, `string`, STL)
 - Replace static arrays with dynamic memory allocation
@@ -238,7 +106,7 @@ Acts as a relational bridge between projects and teams:
 
 ---
 
-## Academic Relevance
+## 🎓 Academic Relevance
 
 This project is suitable for:
 - C++ mini and major projects
@@ -248,8 +116,10 @@ This project is suitable for:
 
 ---
 
-## Author
+## 👤 Author
 
 Developed as a **C++ academic project** focused on demonstrating object-oriented programming and binary file-handling techniques.
+
+⭐ If you find this project useful, consider starring the repository!
 
 
