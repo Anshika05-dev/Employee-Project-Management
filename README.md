@@ -5,7 +5,7 @@ This application demonstrates foundational **Object-Oriented Programming (OOP)**
 
 ---
 
-## ✨Features
+## ✨ Features
 
 
 ### 👥 Team Member Management
@@ -51,7 +51,7 @@ This application demonstrates foundational **Object-Oriented Programming (OOP)**
   - `<conio.h>`
   - `<stdlib.h>`
 
-> ⚠️Note: This project uses legacy headers for compatibility with Turbo C++.
+> ⚠️ Note: This project uses legacy headers for compatibility with Turbo C++.
 
 ---
 
