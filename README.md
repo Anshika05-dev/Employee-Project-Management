@@ -5,7 +5,7 @@ This application demonstrates foundational **Object-Oriented Programming (OOP)**
 
 ---
 
-## ✨ Features
+## Features
 
 
 ### 👥 Team Member Management
